@@ -1,0 +1,9 @@
+/* Small additions for the parts of the public site that only exist because of the CMS (comments, preview notices). Scoped under .dm. */
+.dm .comments { margin-top: 64px; padding-top: 40px; border-top: 1px solid var(--light); display: flex; flex-direction: column; gap: 24px; }
+.dm .comments__list { display: flex; flex-direction: column; gap: 14px; }
+.dm .comments__list li { padding: 16px 20px; background: var(--paper); border: 1px solid var(--light); }
+.dm .comments__head { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; }
+.dm .comments__head span { font-size: 13px; color: var(--text-muted); }
+.dm .comments__list p { margin-top: 8px; color: var(--text-secondary); line-height: 1.65; white-space: pre-wrap; overflow-wrap: anywhere; }
+.dm .comments__form { display: flex; flex-direction: column; gap: 16px; }
+.dm .dm-preview { margin: 0; padding: 10px 24px; text-align: center; background: var(--slate); color: var(--white); font-size: 14px; font-weight: 600; }

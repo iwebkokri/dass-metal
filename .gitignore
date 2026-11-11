@@ -1,0 +1,14 @@
+node_modules
+.next
+.next-*
+out
+dist
+*.tsbuildinfo
+next-env.d.ts
+
+# Studio CMS content: the database, uploaded media and private keys. Back this folder up; never commit it.
+data
+
+.env
+.env.local
+.env*.local
